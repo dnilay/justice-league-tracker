@@ -19,7 +19,7 @@ import java.util.List;
  * @author dinuka
  */
 @RestController
-@RequestMapping("/v1/jl")
+
 public class JusticeLeagueTrackerController {
 
     private static Logger log = LoggerFactory.getLogger(JusticeLeagueTrackerController.class);
