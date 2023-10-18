@@ -6,9 +6,10 @@ phases:
     -  mvn clean package install
 artifacts:
   files:
-  - target/*.jar
-  - scripts/*.sh
-  - appspec.yml
+    - build/libs/*.jar
+    - scripts/*.sh
+    - appspec.yml
+  #com/mycompany/app/HelloWorld.java, specifying yes will place this file in /HelloWorld.java
   discard-paths: yes
 
 cache:
