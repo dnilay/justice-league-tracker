@@ -3,10 +3,16 @@ version: 0.2
 
 phases:
   install:
-    commands:
-    - echo installing maven...
-    - apt-get update -y
-    - apt-get install -y maven
+    runtime-versions:
+      java: corretto8
+
+    pre_build:
+      commands:
+      - echo "Pre_build"
+    build:
+      commands:
+      - echo "Build"
+      - mvn clean install
   build:
     commands:
     - echo building the justiceleague-tracker
