@@ -1,0 +1,5 @@
+2023-10-18T21:23:42.955+05:30 INFO  [main] justiceleague-tracker JusticeLeagueTrackerControllerTest: Starting JusticeLeagueTrackerControllerTest on Nilay-LR with PID 5736 (started by NilayDas in C:\Users\NilayDas\Downloads\justicealeague-tracker-master\justicealeague-tracker-master)
+2023-10-18T21:23:42.956+05:30 INFO  [main] justiceleague-tracker JusticeLeagueTrackerControllerTest: The following profiles are active: test
+2023-10-18T21:23:44.582+05:30 INFO  [main] justiceleague-tracker JusticeLeagueTrackerControllerTest: Started JusticeLeagueTrackerControllerTest in 2.062 seconds (JVM running for 2.851)
+2023-10-18T21:23:44.897+05:30 INFO  [main] justiceleague-tracker JusticeLeagueTrackerController: Received a request to retrive the justice league
+2023-10-18T21:23:44.897+05:30 INFO  [main] justiceleague-tracker JusticeLeagueService: Received a request to get all the justice league members

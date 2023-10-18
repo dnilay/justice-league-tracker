@@ -1,19 +1,17 @@
 version: 0.2
 
-env:
-  variables:
-    JAVA_HOME: "/usr/lib/jvm/java-8-openjdk-amd64"
-
 phases:
   install:
+    runtime-versions:
+      java: corretto8
+
+  pre_build:
     commands:
-    - echo installing maven...
-    - apt-get update -y
-    - apt-get install -y maven
+      - echo "Pre_build"
   build:
     commands:
-    - echo building the justiceleague-tracker
-    - mvn install
+      - echo "Build"
+      - mvn clean install
 artifacts:
   files:
   - target/*.jar
